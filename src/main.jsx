@@ -6,6 +6,7 @@ import Navbar from './navbar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Btn from './Button.jsx'
 import Table from './Table.jsx'
+import Properties from './properties.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
     <Table/>
 
         <Btn/>
+        <Properties name="Developers" content="How  are you?" />
 
   </StrictMode>,
 )
