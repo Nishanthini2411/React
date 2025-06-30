@@ -7,15 +7,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Btn from './Button.jsx'
 import Table from './Table.jsx'
 import Properties from './properties.jsx'
+import Count from './Mystate.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
 
-    <Navbar/>
-    <Table/>
+    {/* <Navbar/> */}
 
-        <Btn/>
-        <Properties name="Developers" content="How  are you?" />
+    {/* <Table/> */}
+
+
+        {/* <Btn/> */}
+
+        {/* <Properties name="Developers" content="How  are you?" /> */}
+        
+        <Count/>
 
   </StrictMode>,
 )
